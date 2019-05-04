@@ -16,13 +16,7 @@ let resume = {
             "to": "2019",
             "techUsed": "Android SDK, Retrofit"
         },
-        {
-            "companyName": "All Star IT Solution",
-            "position": "Android Developer",
-            "from": "2018",
-            "to": "2019",
-            "techUsed": "Android SDK, Retrofit"
-        },
+        
         {
             "companyName": "Upwork",
             "position": "Freelancer",
