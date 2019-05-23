@@ -25,7 +25,7 @@ let resume = {
             "techUsed": "Vue JS(Nuxt JS), Loopback"
         }
     ],
-    "jobStatus": "Unemployed",
+    // "jobStatus": "Unemployed",
     "email": "khadkasuman20@gmail.com",
     "number": "+9779860472874",
     "skills": "can sit and do nothing all day"
