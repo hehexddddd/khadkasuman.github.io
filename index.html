@@ -32,7 +32,8 @@
     setInterval(
         () => {
             let date = new Date();
-            document.querySelector("#locale").innerHTML = date.getTimeString().substr(0,5)
+            
+            document.querySelector("#locale").innerHTML = date.toDateString()+"<br/>"+date.toTimeString().substr(0,8)
         }, 1000
     );
 </script>
