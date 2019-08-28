@@ -1,39 +1,40 @@
 <html>
-    <head><title>Time Screen</title></head>
-    <body>
-        <div id="clock">
-    <p class="date">
-  <div id='locale'></div></p>
-</div>
 
-    </body>
-</html>
-<style>
-  html{
-    background: black;
-  }
-.clock{
-    display: flex;
-    justify-content: center; 
-    width: 600px;
-    height: 600px;
-  }
- 
- .date{
-   width: 500px;
-   text-align: center;
- }
+<head>
+    <title>Time Screen</title>
 
+    <style>
+        body {
+            background: black;
+        }
+        
+        .clock {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        #locale {
+            font-size: 40px;
+            color: white;
+        }
+    </style>
+</head>
 
- #locale{
-   font-size: 50px;
-   color: white;
- }
-</style>
+<body>
+    <div class="clock">
+        <div id='locale'></div>
+    </div>
+</body>
 <script>
-  setInterval(
-  () =>{
-    document.querySelector("#locale").innerHTML = new Date().toTimeString();
-  },1000
-  );
+    setInterval(
+        () => {
+            let date = new Date();
+            document.querySelector("#locale").innerHTML = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+        }, 1000
+    );
 </script>
+
+</html>
