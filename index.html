@@ -42,11 +42,7 @@
     </div>
 </body>
 <script>
-    if ('geolocation' in navigator) {
-        navigator.geolocation.getCurrentPosition(position => {
-            document.querySelector("#location").innerHTML = position.coords.latitude + " , " + position.coords.longitude
-        })
-    }
+    
     setInterval(
         () => {
             let date = new Date();
