@@ -11,43 +11,28 @@
             font-family: monospace;
             color: white;
         }
-        
         .clock {
             height: 70vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            text-align: center;
+            text-align: left;
+            flex-direction:column;
         }
         
-        #locale {
-            font-size: 40px;
-        }
-        
-        .location {
-            display: flex;
-            justify-content: flex-end;
-            align-items: baseline;
-        }
     </style>
 </head>
 
 <body>
-    <div class="clock">
-        <div id='locale'></div>
-    </div>
-    <div class='location'>
-        <div id='location'></div>
-    </div>
+<div class='clock'>
+<div>
+Hello 
+</div>
+<div>
+My name is Suman Khadka
+</div>
+<div>I read in class 10 </div>
+</div>
 </body>
-<script>
-    
-    setInterval(
-        () => {
-            let date = new Date();
-            document.querySelector("#locale").innerHTML = date.toDateString() + "<br/>" + date.toTimeString().substr(0, 8)
-        }, 1000
-    );
-</script>
 
 </html>
