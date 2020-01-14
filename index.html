@@ -12,7 +12,11 @@
   </head>
   <body>
     <div class='d-flex justify-content-center mx-auto'>
-      <img src='/Allora.png' class="img-fluid rounded"/>
+      <div class='countdown'></div>
     </div>
   </body>
+  <script src='https://raw.githubusercontent.com/mckamey/countdownjs/master/countdown.min.js'></script>
+  <script>
+    document.querySelector("countdown").innerText = countdown(new Date(2020,01,14))
+  </script>
 </html>
