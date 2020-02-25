@@ -1,0 +1,18 @@
+body{
+    font-family: monospace;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 40px;
+}
+.technologies{
+    flex-direction: row;
+}
+
+.mt-4{
+    margin-top: 10px;;
+}
