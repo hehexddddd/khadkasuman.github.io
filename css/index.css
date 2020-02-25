@@ -13,6 +13,10 @@ body{
     flex-direction: row;
 }
 
+a{
+    color: white;
+}
+
 .mt-4{
     margin-top: 10px;;
 }
