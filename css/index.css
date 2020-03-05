@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 body{
-    font-family: "Caveat", monospace;
+    font-family: monospace;
     background: black;
     color: white;
     display: flex;
@@ -8,7 +7,7 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: left;
-    padding: 40px;
+    padding: 5px;
 }
 .technologies{
     flex-direction: row;
@@ -19,5 +18,5 @@ a{
 }
 
 .mt-4{
-    margin-top: 10px;;
+    margin-top: 2px;
 }
