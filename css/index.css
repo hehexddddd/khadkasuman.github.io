@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body{
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
     background: #121212;
     color: white;
     filter: brightness(70%);
