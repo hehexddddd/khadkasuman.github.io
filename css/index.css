@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 body{
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Source Mono', sans-serif;
     background: #121212;
     color: white;
     filter: brightness(70%);
